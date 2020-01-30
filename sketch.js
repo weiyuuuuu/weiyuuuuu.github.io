@@ -54,21 +54,20 @@ function draw() {
   stroke(0);
   line(mouseX, 0, mouseX, 1000);
   line(0, mouseY, 1000, mouseY);
-
   } else {
   noStroke();
   fill(244, 128, 55);
   ellipse(500, 500, 300);
+
   strokeWeight(1);
   stroke(234, 191, 86)
   line(490, 500, 510, 500);
   line(500, 490, 500, 510);
 
-  strokWeight(1);
+  strokeWeight(1);
   stroke(255);
   line(mouseX, 0, mouseX, 1000);
   line(0, mouseY, 1000, mouseY);
-
   }
 
   mouseDist = dist(mouseX, mouseY, pmouseX, pmouseY);
