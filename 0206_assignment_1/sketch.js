@@ -65,7 +65,7 @@ function ellipseBrush(){
   fill(0, 0, 0);
   noStroke();
   for(let i=0; i<5000; i++){
-    ellipse(random(0, 500),random(height-mouseY,height), 30, 30);
+    ellipse(random(0, mouseX-170),random(0, mouseY-170), 170, 170);
   }
     fill(255, 255, 255);
     text(line3, 0, height/2);
