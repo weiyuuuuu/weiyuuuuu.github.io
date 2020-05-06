@@ -98,10 +98,10 @@ function draw() {
   text('----------', windowWidth/2 + 167.5, windowHeight/2 - 25);
   text(textItem, windowWidth/2 + 199, windowHeight/2 + 5);
   text(textSec, windowWidth/2 + 190, windowHeight/2 + 35);
-  text(textTemp_item, windowWidth/2 + 231.5, windowHeight/2 + 65);
+  text(textTemp_item, windowWidth/2 +240, windowHeight/2 + 65);
   text('item_', windowWidth/2 + 167.5, windowHeight/2 + 5);
   text('sec_', windowWidth/2 + 167.5, windowHeight/2 + 35);
-  text('item_temp_', windowWidth/2 + 167.5, windowHeight/2 + 65);
+  text('feels_like_', windowWidth/2 + 167.5, windowHeight/2 + 65);
 
   fill(255);
   stroke(0);
