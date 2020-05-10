@@ -156,7 +156,7 @@ class Jitter {
   }
 
   display() {
-    fill(255);
+    noFill();
     stroke(0);
     strokeWeight(1);
     ellipse(this.x, this.y, this.diameter, this.diameter);
